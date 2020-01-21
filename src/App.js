@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Layout, Header, Navigation, Content } from 'react-mdl';
 import About from './components/about';
+import Projects from './components/projects';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         </Header>
         <Content>
             <About />
+            <Projects />
         </Content>
       </Layout>
     </div>

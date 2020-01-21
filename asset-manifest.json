@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/shashank/static/js/main.2067626c.chunk.js",
-    "main.js.map": "/shashank/static/js/main.2067626c.chunk.js.map",
+    "main.js": "/shashank/static/js/main.f0471f1b.chunk.js",
+    "main.js.map": "/shashank/static/js/main.f0471f1b.chunk.js.map",
     "runtime-main.js": "/shashank/static/js/runtime-main.514407e0.js",
     "runtime-main.js.map": "/shashank/static/js/runtime-main.514407e0.js.map",
     "static/css/2.a6bc1c31.chunk.css": "/shashank/static/css/2.a6bc1c31.chunk.css",
     "static/js/2.20813a40.chunk.js": "/shashank/static/js/2.20813a40.chunk.js",
     "static/js/2.20813a40.chunk.js.map": "/shashank/static/js/2.20813a40.chunk.js.map",
     "index.html": "/shashank/index.html",
-    "precache-manifest.afd60940b1b4289ed6ec69fc62b60446.js": "/shashank/precache-manifest.afd60940b1b4289ed6ec69fc62b60446.js",
+    "precache-manifest.c31060da9c0a99bacaf39bf2a54be513.js": "/shashank/precache-manifest.c31060da9c0a99bacaf39bf2a54be513.js",
     "service-worker.js": "/shashank/service-worker.js",
     "static/css/2.a6bc1c31.chunk.css.map": "/shashank/static/css/2.a6bc1c31.chunk.css.map",
     "static/js/2.20813a40.chunk.js.LICENSE": "/shashank/static/js/2.20813a40.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.514407e0.js",
     "static/css/2.a6bc1c31.chunk.css",
     "static/js/2.20813a40.chunk.js",
-    "static/js/main.2067626c.chunk.js"
+    "static/js/main.f0471f1b.chunk.js"
   ]
 }

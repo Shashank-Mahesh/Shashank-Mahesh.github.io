@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Layout, Header, Navigation, Content } from 'react-mdl';
+import About from './components/about';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             </Navigation>
         </Header>
         <Content>
-            <div className="page-content" />
+            <About />
         </Content>
       </Layout>
     </div>

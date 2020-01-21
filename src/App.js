@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { Layout, Header, Navigation, Content } from 'react-mdl';
-import About from './components/about';
-import Projects from './components/projects';
+import Main from './components/main';
 
 function App() {
   return (
@@ -16,9 +15,7 @@ function App() {
             </Navigation>
         </Header>
         <Content>
-          <h1>Hello World</h1>
-            <About />
-            <Projects />
+            <h1>hi</h1>
         </Content>
       </Layout>
     </div>

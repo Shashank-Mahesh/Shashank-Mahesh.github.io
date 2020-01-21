@@ -4,7 +4,6 @@ import { Layout, Header, Navigation, Content } from 'react-mdl';
 import About from './components/about';
 import Projects from './components/projects';
 
-
 function App() {
   return (
     <div className="demo-big-content">
@@ -17,6 +16,7 @@ function App() {
             </Navigation>
         </Header>
         <Content>
+          <h1>Hello World</h1>
             <About />
             <Projects />
         </Content>

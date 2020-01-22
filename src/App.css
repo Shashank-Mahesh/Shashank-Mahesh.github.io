@@ -1,13 +1,32 @@
 .main-div {
-    background: #757f9a;
-    background: -webkit-linear-gradient(to left, #857f9a, #d7dde8);
-    background: linear-gradient(to top, #757f9a, #d7dde8);
+    background: #F0F0F0;
+    font-family: verdana;
 }
 
+.projects {
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-right: 8em;
+    margin-left: 8em;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10em;
+}
+
+.projects-grid {
+    display: flex;
+  }
+
+.projects-title {
+    color:black;
+    font-family: verdana;
+}
 
 .header {
-    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: #F0F0F0;
+    background: -webkit-linear-gradient(to bottom, #2c3e50, rgb(233, 233, 233));
+    background: linear-gradient(to bottom, #2c3e50, rgb(233, 233, 233));
+    font-family: verdana;
 }
 
 .shashank-pic {
@@ -21,8 +40,9 @@
 
 .my-header {
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.65;
     padding: 20px;
+    padding-bottom: 50px;
     margin-right: 20em;
     margin-left: 20em;
     text-align: center;
@@ -31,14 +51,18 @@
 
 .my-header h1,h2,h3 {
     color:white;
+    font-family: verdana;
 }
 
 .university {
-    color:white
+    color:white;
+    font-family: verdana;
 }
 
 .skills {
     color: green;
+    font-family: Verdana;
+    margin-bottom: 30px;
 }
 
 .my-header hr {
@@ -47,7 +71,7 @@
     border: none;
     border-top: solid 5px;
     text-align: center;
-    max-width: 600px;
+    max-width: 700px;
     margin: 25px auto 25px;
 }
 
@@ -88,7 +112,7 @@
     border-radius: 20px;
     padding-left: 4em;
     padding-right: 4em;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 }
 
 .bio p {

@@ -15,7 +15,7 @@ function App() {
             </Navigation>
         </Header>
         <Content>
-            <h1>hi</h1>
+            <Main/>
         </Content>
       </Layout>
     </div>

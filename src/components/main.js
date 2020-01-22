@@ -1,9 +1,12 @@
 import React from 'react';
-import { Route } from 'react-dom'
 import About from "./about";
+import Projects from './projects';
 
 const Main = () => (
-    <Route path="/" component={About} />
+    <div>
+        <About />
+        <Projects />
+    </div>
 )
   
 export default Main;

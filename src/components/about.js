@@ -1,4 +1,4 @@
-import React, { Component } from 'react-mdl';
+import React, { Component } from 'react';
 
 class About extends Component {
 

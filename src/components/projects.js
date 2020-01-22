@@ -1,4 +1,4 @@
-import React, { Component } from 'react-mdl';
+import React, { Component } from 'react';
 import SingleProject from './singleProject';
 
 class Projects extends Component {

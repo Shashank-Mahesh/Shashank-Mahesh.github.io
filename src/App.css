@@ -1,5 +1,13 @@
+.main-div {
+    background: #757f9a;
+    background: -webkit-linear-gradient(to left, #857f9a, #d7dde8);
+    background: linear-gradient(to top, #757f9a, #d7dde8);
+}
+
+
 .header {
-    background: black;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
 .shashank-pic {
@@ -14,25 +22,33 @@
 .my-header {
     background-color: black;
     opacity: 0.8;
-    padding: 10px;
-    margin-right: 22em;
-    margin-left: 22em;
+    padding: 20px;
+    margin-right: 20em;
+    margin-left: 20em;
     text-align: center;
     border-radius: 10px;
 }
 
-.my-header h1,h2,h3,h4,h5,h6 {
+.my-header h1,h2,h3 {
     color:white;
+}
+
+.university {
+    color:white
+}
+
+.skills {
+    color: green;
 }
 
 .my-header hr {
     color: white;
     padding: 0;
     border: none;
-    border-top: solid;
+    border-top: solid 5px;
     text-align: center;
-    max-width: 700px;
-    margin: 25px auto 30px;
+    max-width: 600px;
+    margin: 25px auto 25px;
 }
 
 .intro-text .name {
@@ -40,4 +56,42 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
   }
+  
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.bio {
+    background-color: lightgrey;
+    opacity: 0.8;
+    padding: 40px;
+    margin-top: 5em;
+    margin-right: 20em;
+    margin-left: 20em;
+    text-align: left;
+    border-radius: 20px;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 10em;
+}
+
+.bio p {
+    font-size: 20px;
+    line-height: 1.6;
+}

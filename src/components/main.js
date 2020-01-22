@@ -7,6 +7,8 @@ const Main = () => (
         <About />
         <Projects />
     </div>
+
+    
 )
   
 export default Main;

@@ -1,5 +1,5 @@
 .main-div {
-    background: rgb(200, 200, 200);
+    background: rgb(216, 216, 216);
     font-family: verdana;
 }
 
@@ -27,6 +27,7 @@
     color:black;
     font-family: verdana;
     text-align: center;
+    margin:6vh;
 }
 
 .header {
@@ -84,7 +85,7 @@
 }
 
 .intro-text .name {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: verdana;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
@@ -104,8 +105,7 @@
 }
 
 .bio {
-    background-color: lightgrey;
-    opacity: 0.8;
+    background-color: rgb(184, 184, 184);
     padding: 40px;
     margin-top: 5em;
     margin-right: 10vw;

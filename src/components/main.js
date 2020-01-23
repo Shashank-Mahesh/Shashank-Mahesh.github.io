@@ -16,6 +16,7 @@ const Main = () => (
                     <a href="#about">About Me</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
+                    <a href="ShashankMaheshResume.pdf">Resume</a>
                 </Navigation>
             </HeaderRow>
         </Header>
@@ -30,10 +31,12 @@ const Main = () => (
             </div>
 
             <Footer size="mini">
-                <FooterSection type="left" logo="Shashank Mahesh">
+                <FooterSection logo="Shashank Mahesh" style={{marginRight: '5vw', marginLeft: '5vw'}}>
                     <FooterLinkList>
-                        <a href="mailto:smahesh3@illinois.edu">smahes3@illinois.edu</a>
-                        <a href="#">Privacy & Terms</a>
+                        <a href="mailto:smahesh3@illinois.edu" style={{marginRight: '5vw', marginLeft: '5vw'}}>
+                            smahes3@illinois.edu
+                        </a>
+                        <a href="ShashankMaheshResume.pdf" style={{marginRight: '5vw', marginLeft: '5vw'}}>My Resume</a>
                     </FooterLinkList>
                 </FooterSection>
             </Footer>

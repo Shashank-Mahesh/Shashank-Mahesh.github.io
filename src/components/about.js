@@ -38,6 +38,11 @@ class About extends Component {
                                     rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-envelope-square" aria-hidden="true" />
                                 </a>
+
+                                <a href="ShashankMaheshResume.pdf"
+                                    rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-file" aria-hidden="true"/>
+                                </a>
                             </div>
                         </div>
                     </Cell>

@@ -49,6 +49,9 @@ class Skills extends Component{
                                 <CardText style={{color: 'black'}}>
                                     MySQL, Firebase
                                 </CardText>
+                                <CardText style={{color: 'black'}}>
+                                    Git
+                                </CardText>
                             </Card>
                         </Cell>
                     </Grid>

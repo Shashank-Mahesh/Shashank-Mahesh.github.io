@@ -10,7 +10,7 @@ class Skills extends Component{
                 <div className="skills-grid">
                     <Grid>
                         <Cell col={6}>
-                            <Card shadow={5} style={{minWidth: '320px', height: 'auto', marginRight: '5eem'}}>
+                            <Card shadow={5} style={{minWidth: '20vw', height: 'auto', margin: '5vw'}}>
                                 <CardTitle expand style={{color: '#5a4'}}>
                                     Hardware & ML
                                 </CardTitle>
@@ -27,7 +27,7 @@ class Skills extends Component{
                         </Cell>
 
                         <Cell col={6}>
-                            <Card shadow={5} style={{minWidth: '320px', height: 'auto', marginLeft: '5em'}}>
+                            <Card shadow={5} style={{minWidth: '20vw', height: 'auto', margin: '5vw'}}>
                                 <CardTitle expand style={{color: '#5a4', textAlign: 'center'}}>
                                     App Development
                                 </CardTitle>

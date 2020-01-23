@@ -17,15 +17,17 @@ class Projects extends Component {
                     <Cell col={12}>
                         <div className="projects-grid">
                             {this.genCard('url("towerdefense.jpg") center / cover', "Tower Defense 2.0",
-                            "A game much like Bloons Tower Defense reddesigned in JavaFX",
+                            (<CardText>A game much like Bloons Tower Defense reddesigned in <b>JavaFX</b></CardText>),
                             "https://github.com/Shashank-Mahesh/TowerDefense")}
 
                             {this.genCard('url("site.png") center / cover', "My Portfolio",
-                            "This site! Used React JS and react-mdl to make a simple portfolio to showcase my skills and projects",
+                            (<CardText>This site! Used <b>React JS</b> and <b>react-mdl</b> to make a simple portfolio
+                            to showcase my skills and projects</CardText>),
                             "https://github.com/Shashank-Mahesh/site/tree/master")}
 
                             {this.genCard('url("factorfiction.png") center / cover', "Fact or Fiction?",
-                            "An Android app that uses AI and other algorithms to help users determine the credibility of a news source.",
+                            (<CardText>An <b>Android app</b> that uses <b>AI</b> and <b>ML algorithms</b> to help users
+                            determine the credibility of a news source.</CardText>),
                             "https://github.com/Shashank-Mahesh/Emergenspeech")}
                         </div>
                     </Cell>
@@ -35,15 +37,17 @@ class Projects extends Component {
                     <Cell col={12}>
                         <div className="projects-grid">
                             {this.genCard('url("emergenspeech.png") center / cover', "Emergenspeech",
-                            "An Android app that uses speech-recognition to provide medical help for someone who has just had a medical emergency before Medical help arrives.",
+                            (<CardText>An <b>Android app</b> that uses <b>speech-recognition</b> to provide medical help for someone
+                                who has just had a medical emergency before Medical help arrives</CardText>),
                             "https://github.com/Shashank-Mahesh/Emergenspeech")}
 
                             {this.genCard('url("automation.jpg") center / cover', "Home Automation Model",
-                            "Developed a home automation system to control various home appliances using machine learning algorithms. Used a Raspberry Pi to model home appliances.",
+                            (<CardText>Developed a home automation system to control various home appliances
+                                using <b>machine learning algorithms</b>. Used a <b>Raspberry Pi</b> to model home appliances.</CardText>),
                             "/site")}
 
                             {this.genCard('url("sifa-app.jpg") center / cover', "SIFA Android app",
-                            "Designed an Android app for SIFA (South India Fine Arts); webiste-southindiafinearts.org",
+                            (<CardText>Designed an <b>Android app</b> for SIFA (South India Fine Arts); webiste-southindiafinearts.org</CardText>),
                             "https://github.com/Shashank-Mahesh/SIFA-app")}
                         </div>
                     </Cell>
@@ -54,13 +58,13 @@ class Projects extends Component {
 
     genCard(src, projName, txt, link) {
         return (
-            <Card shadow={5} style={{minWidth: '320px', margin: 'auto'}}>
+            <Card shadow={5} style={{minWidth: '15vw', margin: '5vw'}}>
                 <CardTitle style={{background: src, color: 'black', height: '350px'}}>
                 </CardTitle>
-                <CardText style={{height: '150px'}}>
+                <CardText>
                     <h4 style={{color: 'black', fontFamily:'verdana'}}>{projName}</h4>
-                    {txt}
                 </CardText>
+                {txt}
                 <CardActions border>
                     <Button colored target="_blank" href={link}>GitHub</Button>
                 </CardActions>

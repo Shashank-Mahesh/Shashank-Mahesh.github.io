@@ -24,7 +24,7 @@ class About extends Component {
                             <h4 className="university"><font>University of Illinois at Urbana-Champaign</font></h4>
                             <hr />                            
                             <div className="social-links">
-                                <a href="https://www.linkedin.com/in/shashank-mahesh-5a7708193/"
+                                <a href="https://www.linkedin.com/in/shashank-v-mahesh/"
                                     rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>

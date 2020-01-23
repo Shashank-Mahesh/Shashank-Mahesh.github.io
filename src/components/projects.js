@@ -58,7 +58,7 @@ class Projects extends Component {
 
     genCard(src, projName, txt, link) {
         return (
-            <Card shadow={5} style={{minWidth: '15vw', marginRight: '5vw', marginLeft: '5vw'}}>
+            <Card shadow={5} style={{minWidth: '15vw', marginRight: '3.5vw', marginLeft: '3.5vw'}}>
                 <CardTitle style={{background: src, color: 'black', height: '350px'}}>
                 </CardTitle>
                 <CardText>

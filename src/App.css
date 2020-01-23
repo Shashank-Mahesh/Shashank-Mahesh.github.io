@@ -6,47 +6,55 @@
 .projects {
     padding: 20px;
     padding-bottom: 50px;
-    margin-right: 8em;
-    margin-left: 8em;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 10em;
 }
 
+.skills-grid {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .projects-grid {
     display: flex;
-  }
+}
 
 .projects-title {
     color:black;
     font-family: verdana;
+    text-align: center;
 }
 
 .header {
-    background: #F0F0F0;
-    background: -webkit-linear-gradient(to bottom, #2c3e50, rgb(233, 233, 233));
-    background: linear-gradient(to bottom, #2c3e50, rgb(233, 233, 233));
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #2c3e50);
+    background: linear-gradient(to bottom, #2c3e50, #2c3e50);
+
     font-family: verdana;
+}
+
+
+.about {
+    background-color: rgb(64, 64, 64);
 }
 
 .shashank-pic {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    height: 300px;
+    padding: 20px;
 }
 
 .my-header {
-    background-color: black;
-    opacity: 0.65;
     padding: 20px;
     padding-bottom: 50px;
-    margin-right: 20em;
-    margin-left: 20em;
     text-align: center;
     border-radius: 10px;
+    margin-right: auto;
 }
 
 .my-header h1,h2,h3 {
@@ -60,7 +68,7 @@
 }
 
 .skills {
-    color: green;
+    color: white;
     font-family: Verdana;
     margin-bottom: 30px;
 }
@@ -71,7 +79,7 @@
     border: none;
     border-top: solid 5px;
     text-align: center;
-    max-width: 700px;
+    max-width: 400px;
     margin: 25px auto 25px;
 }
 
@@ -82,16 +90,10 @@
     font-size: 2em;
 }
 
-.social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 8px;
-}
-
 .social-links {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     margin: auto;
   }
   
@@ -106,16 +108,17 @@
     opacity: 0.8;
     padding: 40px;
     margin-top: 5em;
-    margin-right: 20em;
-    margin-left: 20em;
+    max-width: 65em;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
     border-radius: 20px;
     padding-left: 4em;
     padding-right: 4em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .bio p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
 }

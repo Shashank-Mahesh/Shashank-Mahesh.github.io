@@ -7,7 +7,7 @@ class Projects extends Component {
         return (
             <div className="projects">
 
-                <div>
+                <div style={{marginTop: '3em'}}>
                     <h1 className="projects-title"><font>Projects</font></h1>
                 </div>
 
@@ -16,13 +16,13 @@ class Projects extends Component {
                 <Grid>
                     <Cell col={12}>
                         <div className="projects-grid">
-                            {this.genCard('url("sifa-app.jpg") center / cover', "SIFA Android app",
-                            "Designed an Android app for SIFA (South India Fine Arts); webiste-southindiafinearts.org",
-                            "https://github.com/Shashank-Mahesh/SIFA-app")}
+                            {this.genCard('url("towerdefense.jpg") center / cover', "Tower Defense 2.0",
+                            "A game much like Bloons Tower Defense reddesigned in JavaFX",
+                            "https://github.com/Shashank-Mahesh/TowerDefense")}
 
-                            {this.genCard('url("emergenspeech.png") center / cover', "Emergenspeech",
-                            "An Android app that uses speech-recognition to provide medical help for someone who has just had a medical emergency before Medical help arrives.",
-                            "https://github.com/Shashank-Mahesh/Emergenspeech")}
+                            {this.genCard('url("site.png") center / cover', "My Portfolio",
+                            "This site! Used React JS and react-mdl to make a simple portfolio to showcase my skills and projects",
+                            "https://github.com/Shashank-Mahesh/site/tree/master")}
 
                             {this.genCard('url("factorfiction.png") center / cover', "Fact or Fiction?",
                             "An Android app that uses AI and other algorithms to help users determine the credibility of a news source.",
@@ -34,13 +34,17 @@ class Projects extends Component {
                     </Cell>
                     <Cell col={12}>
                         <div className="projects-grid">
-                            {this.genCard('url("towerdefense.jpg") center / cover', "Tower Defense 2.0",
-                            "A game much like Bloons Tower Defense reddesigned in JavaFX",
-                            "https://github.com/Shashank-Mahesh/TowerDefense")}
+                            {this.genCard('url("emergenspeech.png") center / cover', "Emergenspeech",
+                            "An Android app that uses speech-recognition to provide medical help for someone who has just had a medical emergency before Medical help arrives.",
+                            "https://github.com/Shashank-Mahesh/Emergenspeech")}
 
                             {this.genCard('url("automation.jpg") center / cover', "Home Automation Model",
                             "Developed a home automation system to control various home appliances using machine learning algorithms. Used a Raspberry Pi to model home appliances.",
                             "/site")}
+
+                            {this.genCard('url("sifa-app.jpg") center / cover', "SIFA Android app",
+                            "Designed an Android app for SIFA (South India Fine Arts); webiste-southindiafinearts.org",
+                            "https://github.com/Shashank-Mahesh/SIFA-app")}
                         </div>
                     </Cell>
                 </Grid>

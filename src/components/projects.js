@@ -46,9 +46,9 @@ class Projects extends Component {
                                 using <b>machine learning algorithms</b>. Used a <b>Raspberry Pi</b> to model home appliances.</CardText>),
                             "/site")}
 
-                            {this.genCard('url("sifa-app.jpg") center / cover', "SIFA Android app",
+                            {/* {this.genCard('url("sifa-app.jpg") center / cover', "SIFA Android app",
                             (<CardText>Designed an <b>Android app</b> for SIFA (South India Fine Arts); webiste-southindiafinearts.org</CardText>),
-                            "https://github.com/Shashank-Mahesh/SIFA-app")}
+                            "https://github.com/Shashank-Mahesh/SIFA-app")} */}
                         </div>
                     </Cell>
                 </Grid>

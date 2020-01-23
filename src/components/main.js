@@ -16,7 +16,7 @@ const Main = () => (
                     <a href="#about">About Me</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
-                    <a href="ShashankMaheshResume.pdf">Resume</a>
+                    <a href="ShashankMaheshResume.pdf" download>Resume</a>
                 </Navigation>
             </HeaderRow>
         </Header>
@@ -36,7 +36,9 @@ const Main = () => (
                         <a href="mailto:smahesh3@illinois.edu" style={{marginRight: '5vw', marginLeft: '5vw'}}>
                             smahes3@illinois.edu
                         </a>
-                        <a href="ShashankMaheshResume.pdf" style={{marginRight: '5vw', marginLeft: '5vw'}}>My Resume</a>
+                        <a href="ShashankMaheshResume.pdf" style={{marginRight: '5vw', marginLeft: '5vw'}} download>
+                            My Resume
+                        </a>
                     </FooterLinkList>
                 </FooterSection>
             </Footer>

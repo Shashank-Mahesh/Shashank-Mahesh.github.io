@@ -16,19 +16,18 @@ class Projects extends Component {
                 <Grid>
                     <Cell col={12}>
                         <div className="projects-grid">
-                            {this.genCard('url("towerdefense.jpg") center / cover', "Tower Defense 2.0",
-                            (<CardText>A game much like Bloons Tower Defense reddesigned in <b>JavaFX</b></CardText>),
+                            {this.genCard('url("nassModis.jpg") center / cover', "MODIS Cloud Detection Algorithm",
+                            (<CardText>An application <b>Python</b> that used machine learning algorithms to detect clouds from a satellite image provided by MODIS (NASA).</CardText>),
+                            "https://github.com/Shashank-Mahesh/TowerDefense")}
+
+                            {this.genCard('url("weednet.png") center / cover', "Weednet",
+                            (<CardText>An application <b>Python</b> and Streamlit that uses deep learning to categorize a plant as a plant or a weed with 98.04% efficiency.</CardText>),
                             "https://github.com/Shashank-Mahesh/TowerDefense")}
 
                             {this.genCard('url("site.png") center / cover', "My Portfolio",
                             (<CardText>This site! Used <b>React JS</b> and <b>react-mdl</b> to make a simple portfolio
                             to showcase my skills and projects</CardText>),
                             "https://github.com/Shashank-Mahesh/site/tree/master")}
-
-                            {this.genCard('url("factorfiction.png") center / cover', "Fact or Fiction?",
-                            (<CardText>An <b>Android app</b> that uses <b>AI</b> and <b>ML algorithms</b> to help users
-                            determine the credibility of a news source.</CardText>),
-                            "https://github.com/Shashank-Mahesh/Emergenspeech")}
                         </div>
                     </Cell>
                     <Cell>
@@ -36,15 +35,34 @@ class Projects extends Component {
                     </Cell>
                     <Cell col={12}>
                         <div className="projects-grid">
+                            {this.genCard('url("factorfiction.png") center / cover', "Fact or Fiction?",
+                            (<CardText>An <b>Android app</b> that uses <b>AI</b> and <b>ML algorithms</b> to help users
+                            determine the credibility of a news source.</CardText>),
+                            "https://github.com/Shashank-Mahesh/Emergenspeech")}
+                            
                             {this.genCard('url("emergenspeech.png") center / cover', "Emergenspeech",
                             (<CardText>An <b>Android app</b> that uses <b>speech-recognition</b> to provide medical help for someone
                                 who has just had a medical emergency before Medical help arrives</CardText>),
                             "https://github.com/Shashank-Mahesh/Emergenspeech")}
 
+                            {this.genCard('url("raspberrypi.jpg") center / cover', "A Little Language to Program the Raspberry Pi",
+                            (<CardText>Developed a parser and a framework in Java to provide a high level language to control a Raspberry Pi.</CardText>),
+                            "/site")}
+                        </div>
+                    </Cell>
+                    <Cell>
+                        <div style={{margin: '4em'}}></div>
+                    </Cell>
+                    <Cell col={12}>
+                        <div className="projects-grid">
                             {this.genCard('url("automation.jpg") center / cover', "Home Automation Model",
                             (<CardText>Developed a home automation system to control various home appliances
                                 using <b>machine learning algorithms</b>. Used a <b>Raspberry Pi</b> to model home appliances.</CardText>),
                             "/site")}
+
+                            {this.genCard('url("towerdefense.jpg") center / cover', "Tower Defense 2.0",
+                            (<CardText>A game much like Bloons Tower Defense reddesigned in <b>JavaFX</b></CardText>),
+                            "https://github.com/Shashank-Mahesh/TowerDefense")}
 
                             {/* {this.genCard('url("sifa-app.jpg") center / cover', "SIFA Android app",
                             (<CardText>Designed an <b>Android app</b> for SIFA (South India Fine Arts); webiste-southindiafinearts.org</CardText>),

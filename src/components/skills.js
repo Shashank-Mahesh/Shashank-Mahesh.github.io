@@ -15,7 +15,7 @@ class Skills extends Component{
                                     Hardware & ML
                                 </CardTitle>
                                 <CardText style={{color: 'black'}}>
-                                    PyTorch
+                                    Fastai, PyTorch
                                 </CardText>
                                 <CardText style={{color: 'black'}}>
                                     Raspberry Pi, Arduino
@@ -50,7 +50,7 @@ class Skills extends Component{
                                     MySQL, Firebase
                                 </CardText>
                                 <CardText style={{color: 'black'}}>
-                                    Git
+                                    Git, AWS
                                 </CardText>
                             </Card>
                         </Cell>
